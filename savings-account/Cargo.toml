@@ -1,0 +1,33 @@
+[package]
+name = "savings-account"
+version = "0.0.0"
+authors = [ "Dorin Iancu <dorin.iancu@dharitri.com>",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.dharitri-wasm]
+version = "0.9.8"
+
+[dependencies.dharitri-wasm-modules]
+version = "0.9.8"
+
+[dev-dependencies.dharitri-wasm-debug]
+version = "0.9.8"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+
+[dev-dependencies.price-aggregator]
+git = "https://github.com/Dharitri-org/drt-chainlink-sc"
+rev = "6148ded"
+
+[dev-dependencies.delegation-mock]
+path = "../delegation-mock"
+
+[dev-dependencies.dex-mock]
+path = "../dex-mock"

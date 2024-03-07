@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "savings-account",
+    "savings-account/meta",
+    "delegation-mock",
+    "delegation-mock/meta",
+    "dex-mock",
+    "dex-mock/meta"
+]

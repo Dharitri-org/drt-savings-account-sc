@@ -1,0 +1,15 @@
+[package]
+name = "savings-account-meta"
+version = "0.0.0"
+authors = [ "Dorin Iancu <dorin.iancu@dharitri.com>",]
+edition = "2018"
+publish = false
+
+[dependencies.savings-account]
+path = ".."
+
+[dependencies.dharitri-wasm]
+version = "0.9.8"
+
+[dependencies.dharitri-wasm-debug]
+version = "0.9.8"
